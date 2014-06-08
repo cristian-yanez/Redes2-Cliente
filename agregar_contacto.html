@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Agregar contactos</title>
+</head>
+
+<body>
+
+<header>
+<h1 class="logo">Agregar contactos</h2>
+<nav id="menu">
+<ul>
+<a href="index.html"><li id="home">Inicio</li></a>
+<a href="agregar_contacto.html"><li id="agregar">Agregar contactos</li></a>
+<a href="lista_contactos.html"><li id="lista">Lista de contactos</li></a>
+<a href="enviar_mensaje.html"><li id="lista">Enviar Mensaje</li></a>
+<a href='enviar_archivo.html'><li id='lista'>Enviar Archivo</li></a>
+</ul>
+</nav>	
+</header>
+
+<div id="main">
+<form action="estado_bd.html" name="form" method="POST">
+<table id="formulario">
+<tr>
+<td>Nombre: </td>
+<td><input type="text" name="nombre"></td>
+</tr>
+<tr>
+<td>IP: </td>
+<td><input type="text" name="ip"></td>
+</tr>
+<tr>
+<td>Puerto: </td>
+<td><input type="text" name="puerto"></td>
+</tr>
+</table>
+<br>
+<input type="submit" value="Agregar contacto">
+</form>
+</div>
+
+</body>
+
+</html>

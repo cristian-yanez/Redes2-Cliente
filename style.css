@@ -1,0 +1,87 @@
+body{
+background: #04B486;
+padding-top: 70px;
+font-family: 'Comic Sans MS'
+}
+
+#menu{
+position: fixed;
+top: 0;
+left: 0;
+background: #0101DF;
+width: 100%
+}
+
+#menu ul{
+list-style: none;
+padding-left: 15%;
+margin : 0;
+}
+
+#menu ul li{
+float: left;
+padding: 20px;
+color: white;
+}
+
+.logo{
+color: white;
+}
+
+header,#main{
+
+
+margin: 0 auto;
+text-align: center;
+margin-top: 10px;
+}
+
+#main span{
+font-weight: bold;
+}
+
+#formulario{
+margin: 0 auto;
+}
+
+input[type="text"]{
+width:300px;
+margin-bottom:10px;
+}
+
+input[type="submit"]{
+background-color:#89c403;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+border-radius:6px;
+border:1px solid #74b807;
+cursor:pointer;
+color:#ffffff;
+font-size:15px;
+font-weight:bold;
+padding:7px 47px;
+text-decoration:none;
+}
+
+input[type="submit"]:hover {
+background-color:#77a809;
+}
+
+input[type="submit"]:active {
+position:relative;
+top:1px;
+}
+
+    Status
+    API
+    Training
+    Shop
+    Blog
+    About
+
+    © 2014 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Contact
+
